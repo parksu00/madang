@@ -170,9 +170,16 @@ main {
   /* border-top: 2px solid #ccc; ; */
   /* /* color: black; */
   border-top: 0;
+  display: flex;
+  justify-content: end;
   }
 
 .content_view_like a:nth-child(1) {
+  padding: 0 15px 0 0px;
+  color: red;
+}
+
+.content_view_like a:nth-child(2) {
   padding: 0 15px 0 0px;
   color: red;
 }
