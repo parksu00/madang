@@ -34,7 +34,7 @@ alter table code add constraint code_useyn_ck check(useyn in ('Y','N'));
 
 --샘플데이터 of code
 insert into code (code_id,decode,pcode_id,useyn) values ('B01','게시판',null,'Y');
-insert into code (code_id,decode,pcode_id,useyn) values ('B0101','공연전시','B01','Y');
+insert into code (code_id,decode,pcode_id,useyn) values ('B0101','공연','B01','Y');
 insert into code (code_id,decode,pcode_id,useyn) values ('B0102','홍보','B01','Y');
 insert into code (code_id,decode,pcode_id,useyn) values ('B0103','후기','B01','Y');
 insert into code (code_id,decode,pcode_id,useyn) values ('B0104','문화지도','B01','Y');
